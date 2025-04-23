@@ -2,11 +2,11 @@
 	"name": "chat-app",
 	"version": "1.0.0",
 	"description": "This is MERN chat app",
-	"main": "dist/server.js",  // Change the main entry point to the compiled server.js in dist
+	"main": "dist/server.js",
 	"scripts": {
-	  "build": "tsc",  // Compile TypeScript files to JavaScript
-	  "start": "node dist/server.js",  // Start the app using the compiled JS
-	  "dev": "nodemon src/server.ts"  // Optional: For local development, watch the TS files with nodemon
+	  "build": "tsc",
+	  "start": "node dist/server.js",
+	  "dev": "nodemon src/server.ts"
 	},
 	"keywords": [],
 	"author": "Thuta Sann <thutasann2002@gmail.com>",
@@ -22,17 +22,17 @@
 	  "express-async-handler": "^1.2.0",
 	  "jsonwebtoken": "^9.0.0",
 	  "mongoose": "^7.0.1",
-	  "nodemon": "^2.0.20",  // Nodemon for auto-reload during development
+	  "nodemon": "^2.0.20",
 	  "prettier": "^2.8.4",
 	  "socket.io": "^4.6.1",
-	  "ts-node": "^10.9.1"  // For running TS directly in dev mode
+	  "ts-node": "^10.9.1"
 	},
 	"devDependencies": {
 	  "@types/bcrypt": "^5.0.0",
 	  "@types/express": "^4.17.17",
 	  "@types/jsonwebtoken": "^9.0.1",
 	  "@types/node": "^18.15.0",
-	  "typescript": "^4.9.5"  // TypeScript compiler
+	  "typescript": "^4.9.5"
 	}
   }
   
