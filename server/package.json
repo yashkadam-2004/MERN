@@ -4,8 +4,9 @@
 	"description": "This is MERN chat app",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.ts",
-		"dev": "nodemon server.ts"
+"build": "tsc",
+  "start": "node dist/server.js"
+
 	},
 	"keywords": [],
 	"author": "Thuta Sann <thutasann2002@gmail.com>",
