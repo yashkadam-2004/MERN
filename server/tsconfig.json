@@ -1,27 +1,12 @@
 {
 	"compilerOptions": {
-	  "target": "es2016",                       // Target modern JavaScript
-	  "module": "commonjs",                      // Use CommonJS module system (compatible with Node.js)
-	  "esModuleInterop": true,                   // Enables default import compatibility with non-ES module packages
-	  "forceConsistentCasingInFileNames": true,  // Ensures file names are consistent
-	  "strict": true,                            // Enable strict type checking
-	  "skipLibCheck": true,                      // Skip type checking of declaration files (improves compilation time)
-	  "noImplicitAny": false,                    // Allows variables with no explicit type (set to true if you want more strictness)
-	  "outDir": "./dist",                        // Output directory for compiled JavaScript
-	  "rootDir": "./",                           // Set rootDir to the base folder so all files are included
-	  "resolveJsonModule": true                  // Allow importing of JSON files as modules (if needed)
-	},
-	"include": [
-	  "src/**/*.ts",                              // Include all TypeScript files in the src folder
-	  "config/**/*.ts",                           // Include TypeScript files in the config folder
-	  "routes/**/*.ts",                           // Include TypeScript files in the routes folder
-	  "utils/**/*.ts",                            // Include TypeScript files in the utils folder
-	  "types/**/*.ts",                            // Include TypeScript files in the types folder
-	  "models/**/*.ts",                           // Include TypeScript files in the models folder
-	  "middlewares/**/*.ts"                       // Include TypeScript files in the middlewares folder
-	],
-	"exclude": [
-	  "node_modules"                              // Exclude node_modules from the compilation
-	]
-  }
-  
+		"target": "es2016",
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": false,
+		"strict": true,
+		"skipLibCheck": true,
+		"noImplicitAny": false,
+		"outDir": "./dist"
+	}
+}
